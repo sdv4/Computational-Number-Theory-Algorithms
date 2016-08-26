@@ -31,7 +31,7 @@ public class ModularInverseCalc {
 	/* Method to calculate the integer congruence a^-1 of a mod p
 	 * when a and p are coprime (gcd(a, p) =1). This method uses 
 	 * the Euler's Toitent Function technique of determining 
-  	 * modular invverse. 
+  	 * modular invverse in the special case where p is prime.
 	 *
  	 * @param a  is an integer whose inverse will be determined
 	 * @param p  the prime modulus used in the calculation.
