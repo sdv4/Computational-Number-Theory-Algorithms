@@ -2,7 +2,7 @@ import java.lang.Math;
 
 /*
  * @author  Shane Sims
- * @version  31 May 2016
+ * @version  25 August 2016
  */
 
 public class TonelliSqrtModP{
@@ -12,6 +12,8 @@ public class TonelliSqrtModP{
 	 * algorithm for this purpose. Pseudo-code found 
 	 * in Crandall and Pomerance's Prime Numbers: a Computational 
 	 * perspective.
+	 * NOTE: this algorithm gives different results than version developed
+	 * by Daniel Shanks, commonly know as the Tonelli-Shanks algorithm. 
 	 * @int a  a quadratic residue of p, whoes sqrt will be calculated
 	 * @ int p  an odd prime
 	 */
